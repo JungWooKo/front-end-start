@@ -1,0 +1,21 @@
+#board
+{
+  width : 500px;
+  height : 500px;
+  border : 1px solid black;
+  display : lnline-block
+}
+.white
+{
+  width : 125px;
+  height : 125px;
+  BackgroundColor : white;
+  display : lnline-block
+}
+.black
+{
+  width : 125px;
+  height : 125px;
+  BackgroundColor : black;
+  display : lnline-block
+}
