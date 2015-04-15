@@ -5,16 +5,15 @@
   <title>박스오피스!</title>
 </head>
 <body>
-
+<input type="text" id="search">
+<input type="button" id="button">검색</input>
 <div id="wrap"> </div>
 
 <script type="text/template" id="listTemplate">
 <ul>
   <% for(var i=0; i<list.length; i++) { %>
   <li>
-    <p><%= list[i].titleKo %></p>
-    <p><img src="<%= list[i].photo.fullname %>" alt="" width="100"></p>
-    <p><%= list[i].moviePoint.expectPointAvg %></p>
+    <p><a href = " <%= list[i].link %>"><%= list[i].title %></a>&nbsp&nbsp;<%= list[i].pubDate %></p>
   </li>
   <%} %>
 </ul>
